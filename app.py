@@ -16,9 +16,7 @@ st.set_page_config(
 # ======================================
 # Load Dataset
 # ======================================
-df = pd.read_csv(
-    r"C:\Users\mohan\OneDrive\Pictures\Desktop\crop  project\data\crop recomendation.csv"
-)
+df = pd.read_csv("crop_production.csv")
 
 # ======================================
 # Header
